@@ -1,0 +1,19 @@
+{
+  "name": "phaser",
+  "version": "1.0.0",
+  "description": "Making my first phaser 3 game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "author": "leon",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
